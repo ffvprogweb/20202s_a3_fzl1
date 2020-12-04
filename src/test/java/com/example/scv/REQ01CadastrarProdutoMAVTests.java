@@ -1,4 +1,4 @@
-package com.example.p3Teste;
+package com.example.scv;
 
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post;
 

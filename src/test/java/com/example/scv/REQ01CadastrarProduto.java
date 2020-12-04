@@ -1,4 +1,4 @@
-package com.example.p3Teste;
+package com.example.scv;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
@@ -26,7 +26,7 @@ class REQ01CadastrarProduto {
     private static Validator validator;
 
     @BeforeAll
-    void setUp() {
+    static void setUp() {
         validator = Validation.buildDefaultValidatorFactory().getValidator();
     }
 
